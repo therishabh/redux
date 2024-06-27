@@ -33,3 +33,11 @@ Have a 'type' property that indicates the type of action being performed<br/>
 The 'type' property is typically defined as string constants<br/>
 Action is a object with a type property and an action creator is a function that returns an action.<br/>
 <br/>
+
+### Reducers
+Specify how the app's state changes in response to actions sent to the store <br/>
+Function that accepts state and action as arguments, and returns the next state of the application<br/>
+(previousState, action) => newState<br/>
+<br/>
+
+
